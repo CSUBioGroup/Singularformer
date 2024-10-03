@@ -1,3 +1,8 @@
+# Singularformer: Learning to Decompose Self-Attention to Linearize the Complexity of Transformer
+
+## Overview
+Singularformer is a linear-complexity transformer based on singular value decomposition. The idea is from the equation "A=softmax(QK^T)" in Transformer, where "A" is obviously a singular or non-full-rank matrix and the rank is at most H/A (hidden size over number of attention heads). 
+
 ## Usage
 
 ```python
