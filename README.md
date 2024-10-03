@@ -19,6 +19,7 @@ output = singularformer(x, None) # output with the shape (batch size,seq length,
 
 ## Citation
 
+```
 @inproceedings{wu2023singularformer,
   title={Singularformer: Learning to Decompose Self-Attention to Linearize the Complexity of Transformer.},
   author={Wu, Yifan and Kan, Shichao and Zeng, Min and Li, Min},
@@ -26,3 +27,4 @@ output = singularformer(x, None) # output with the shape (batch size,seq length,
   pages={4433--4441},
   year={2023}
 }
+```
